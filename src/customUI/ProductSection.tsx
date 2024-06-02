@@ -4,7 +4,7 @@ export function ProductSection() {
       {Array.from({ length: 4 }).map((_, i) => (
         <div key={i} className="rounded-md border">
           <img
-            src="https://images.unsplash.com/photo-1588099768523-f4e6a5679d88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwxMTM4MTU1NXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+            src="../../public/annie-spratt-QOBHnWEg-mk-unsplash.jpg"
             alt="Laptop"
             className="aspect-[16/9] w-full rounded-md md:aspect-auto md:h-[300px] lg:h-[200px]"
           />
