@@ -2,7 +2,7 @@ export function FeatureSection() {
   return (
     <div className="mx-auto mt-20 max-w-7xl px-2 lg:px-8">
       <h2 className="mt-2 mb-10 text-center text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-        DevUI helps you build beautiful website
+        Build your beautiful kitchen in Fatima Crockery's
       </h2>
 
       <div className="grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
@@ -24,11 +24,12 @@ export function FeatureSection() {
             </svg>
           </div>
           <h3 className="mt-8 text-lg font-semibold text-black">
-            Secured Payments
+            Fresh Products
           </h3>
           <p className="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+            Discover the ultimate kitchen essentials with Fresh Products! Our
+            extensive collection includes high-quality cookware, innovative
+            storage solutions.
           </p>
         </div>
         <div>
@@ -49,11 +50,12 @@ export function FeatureSection() {
             </svg>
           </div>
           <h3 className="mt-8 text-lg font-semibold text-black">
-            Fast & Easy to Load
+            Loge-Lasting products
           </h3>
           <p className="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+            Experience the durability and reliability of Long-Lasting Products.
+            Our range is meticulously crafted to provide you with items that
+            stand the test of time.
           </p>
         </div>
         <div>
@@ -74,11 +76,12 @@ export function FeatureSection() {
             </svg>
           </div>
           <h3 className="mt-8 text-lg font-semibold text-black">
-            Light & Dark Version
+            Quality Products
           </h3>
           <p className="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+            Discover the excellence of Quality Products. Our carefully curated
+            collection features top-notch items designed to enhance your
+            everyday life.
           </p>
         </div>
         <div>
@@ -99,11 +102,12 @@ export function FeatureSection() {
             </svg>
           </div>
           <h3 className="mt-8 text-lg font-semibold text-black">
-            Filter Blocks
+            Unique Products
           </h3>
           <p className="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+            Uncover the charm of Unique Products. Our exclusive collection is
+            curated to offer you items that stand out in design and
+            functionality.
           </p>
         </div>
       </div>
