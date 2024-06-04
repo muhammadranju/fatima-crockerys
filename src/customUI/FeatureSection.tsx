@@ -1,8 +1,8 @@
 export function FeatureSection() {
   return (
     <div className="mx-auto mt-20 max-w-7xl px-2 lg:px-8">
-      <h2 className="mt-2 mb-10 text-center text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-        Build your beautiful kitchen in Fatima Crockery's
+      <h2 className="mt-2 mb-10 text-center text-3xl font-bold leading-tight  sm:text-4xl lg:text-4xl">
+        ফাতিমা ক্রোকারিজে আপনার সুন্দর রান্নাঘর তৈরি করুন{" "}
       </h2>
 
       <div className="grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
@@ -23,13 +23,13 @@ export function FeatureSection() {
               />
             </svg>
           </div>
-          <h3 className="mt-8 text-lg font-semibold text-black">
-            Fresh Products
+          <h3 className="mt-8 text-lg font-semibold ">
+            Fresh Products <br /> <span>(নতুন পণ্য)</span>
           </h3>
-          <p className="mt-4 text-sm text-gray-600">
-            Discover the ultimate kitchen essentials with Fresh Products! Our
-            extensive collection includes high-quality cookware, innovative
-            storage solutions.
+          <p className="mt-4 text-sm ">
+            তাজা পণ্যের সাথে চূড়ান্ত রান্নাঘরের প্রয়োজনীয় জিনিসগুলি আবিষ্কার
+            করুন! আমাদের বিস্তৃত সংগ্রহের মধ্যে রয়েছে উচ্চ-মানের রান্নাঘর,
+            উদ্ভাবনী স্টোরেজ সমাধান।
           </p>
         </div>
         <div>
@@ -49,13 +49,13 @@ export function FeatureSection() {
               />
             </svg>
           </div>
-          <h3 className="mt-8 text-lg font-semibold text-black">
-            Loge-Lasting products
+          <h3 className="mt-8 text-lg font-semibold">
+            Loge-Lasting products <br /> <span>(লগ-স্থায়ী পণ্য)</span>
           </h3>
-          <p className="mt-4 text-sm text-gray-600">
-            Experience the durability and reliability of Long-Lasting Products.
-            Our range is meticulously crafted to provide you with items that
-            stand the test of time.
+          <p className="mt-4 text-sm ">
+            দীর্ঘস্থায়ী পণ্যগুলির স্থায়িত্ব এবং নির্ভরযোগ্যতার অভিজ্ঞতা নিন।
+            আমাদের পরিসরটি আপনাকে এমন আইটেম সরবরাহ করার জন্য যত্ন সহকারে তৈরি
+            করা হয়েছে যা সময়ের পরীক্ষায় দাঁড়ায়।
           </p>
         </div>
         <div>
@@ -75,13 +75,13 @@ export function FeatureSection() {
               />
             </svg>
           </div>
-          <h3 className="mt-8 text-lg font-semibold text-black">
-            Quality Products
+          <h3 className="mt-8 text-lg font-semibold">
+            Quality Products <br /> <span>(গুণসম্পন্ন পণ্য)</span>
           </h3>
-          <p className="mt-4 text-sm text-gray-600">
-            Discover the excellence of Quality Products. Our carefully curated
-            collection features top-notch items designed to enhance your
-            everyday life.
+          <p className="mt-4 text-sm ">
+            গুণমান পণ্যের শ্রেষ্ঠত্ব আবিষ্কার করুন. আমাদের যত্ন সহকারে সংগৃহীত
+            সংগ্রহে আপনার দৈনন্দিন জীবনকে উন্নত করার জন্য ডিজাইন করা
+            শীর্ষস্থানীয় আইটেমগুলি রয়েছে।
           </p>
         </div>
         <div>
@@ -101,13 +101,13 @@ export function FeatureSection() {
               />
             </svg>
           </div>
-          <h3 className="mt-8 text-lg font-semibold text-black">
-            Unique Products
+          <h3 className="mt-8 text-lg font-semibold">
+            Unique Products <br /> <span>(অনন্য পণ্য)</span>
           </h3>
-          <p className="mt-4 text-sm text-gray-600">
-            Uncover the charm of Unique Products. Our exclusive collection is
-            curated to offer you items that stand out in design and
-            functionality.
+          <p className="mt-4 text-sm ">
+            অনন্য পণ্যের কবজ উন্মোচন. আমাদের একচেটিয়া সংগ্রহ আপনাকে এমন
+            আইটেমগুলি অফার করার জন্য তৈরি করা হয়েছে যা ডিজাইন এবং কার্যকারিতায়
+            আলাদা।
           </p>
         </div>
       </div>
