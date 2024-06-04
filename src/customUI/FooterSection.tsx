@@ -28,11 +28,18 @@ export function FooterSection() {
           <div className="w-auto p-8">
             <ul className="-m-5 flex flex-wrap items-center">
               <li className="p-5">
-                <a className="font-medium hover:text-gray-400" href="">
-                  Privacy Policy
+                <a className="font-medium">
+                  ©️copyright {new Date().getFullYear()} Fatima Crockery's
                 </a>
+                <br />
+                <small>
+                  Developed by{" "}
+                  <a href="https://muhammadranju.vercel.app/" target="_blank">
+                    <strong>Muhammad Ranju</strong>
+                  </a>
+                </small>
               </li>
-              <li className="p-5">
+              {/* <li className="p-5">
                 <a className="font-medium hover:text-gray-400" href="#">
                   Terms of Service
                 </a>
@@ -47,6 +54,11 @@ export function FooterSection() {
                   Contact Us
                 </a>
               </li>
+              <li className="p-5">
+                <a className="font-medium hover:text-gray-400" href="#">
+                  Contact Us
+                </a>
+              </li> */}
             </ul>
           </div>
           <div className="w-auto p-8">
