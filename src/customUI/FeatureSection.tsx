@@ -50,7 +50,7 @@ export function FeatureSection() {
             </svg>
           </div>
           <h3 className="mt-8 text-lg font-semibold">
-            Loge-Lasting products <br /> <span>(লগ-স্থায়ী পণ্য)</span>
+            Long-Lasting products <br /> <span>(দীর্ঘস্থায়ী পণ্য)</span>
           </h3>
           <p className="mt-4 text-sm ">
             দীর্ঘস্থায়ী পণ্যগুলির স্থায়িত্ব এবং নির্ভরযোগ্যতার অভিজ্ঞতা নিন।
