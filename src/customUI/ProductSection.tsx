@@ -10,9 +10,9 @@ export function ProductSection() {
           />
           <div className="p-4">
             <h1 className="inline-flex items-center text-lg font-semibold">
-              Nike Airmax v2
+              Dish Pleat's
             </h1>
-            <p className="mt-3 text-sm text-gray-600">
+            <p className="mt-3 text-sm ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Excepturi, debitis?
             </p>
