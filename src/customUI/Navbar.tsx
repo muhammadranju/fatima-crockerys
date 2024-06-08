@@ -78,6 +78,9 @@ export function Navbar() {
                         alt="Fatima Crockery"
                       />
                     </span>
+                    <span className="font-bold text-slate-900 text-2xl">
+                      Fatima Crockery
+                    </span>
                   </div>
                   <div className="-mr-2">
                     <button
