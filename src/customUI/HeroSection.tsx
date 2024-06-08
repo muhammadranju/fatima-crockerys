@@ -9,14 +9,14 @@ export function HeroSection() {
             ফাতিমা ক্রোকারিজ থেকে সাজিয়ে নিন আপনার রান্নাঘর😊.
           </h1>
 
-          <div className="mt-8 flex max-w-max items-center space-x-2 rounded-full  border p-2">
+          <div className="mt-8 flex max-w-max items-center space-x-2 rounded-full border-cyan-50 border p-2">
             <p className="text-xs font-medium md:text-sm">
-              আপনি আরো আইটেম দেখতে চান তারপর দেখুন{""}
-              <span className="ml-2 cursor-pointer font-bold">
+              আপনি আরো আইটেম দেখতে চান তারপর দেখুন{" "}
+              <strong className="ml-2 text-xxl cursor-pointer font-bold">
                 <a href={facebookURL} target="_blank">
                   ফাতিমা ক্রোকারিজ
                 </a>
-              </span>
+              </strong>
               <span className="l=ml2"> facebook page &rarr;</span>
             </p>
           </div>
