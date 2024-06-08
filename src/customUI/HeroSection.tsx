@@ -34,8 +34,9 @@ export function HeroSection() {
         <div className="rounded-lg bg-gray-200 p-2">
           <img
             className="aspect-[3/2] w-full rounded-lg bg-gray-50 object-cover lg:aspect-auto lg:h-[600px]"
-            src="https://scontent.fdac24-5.fna.fbcdn.net/v/t39.30808-6/240461781_119337233774660_4033114008569214744_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Ho3tqraOAScQ7kNvgEoOuYm&_nc_ht=scontent.fdac24-5.fna&oh=00_AYDpN6PY0hJNY9YXJCBpmsXFanCCQzB0TBKCqTZtL0ycQw&oe=666438DB"
-            alt=""
+            src="../../hero-image.jpg"
+            alt="ফাতিমা ক্রোকারিজের প্রিমিয়াম সংগ্রহের সাথে আপনার রান্নাঘরকে সংগঠন
+            এবং দক্ষতার আশ্রয়স্থলে রূপান্তর করুন।"
           />
         </div>
       </div>
