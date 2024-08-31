@@ -21,7 +21,7 @@ export function FooterSection() {
             <ul className="-m-5 flex flex-wrap items-center">
               <li className="p-5">
                 <a className="font-medium">
-                  ©️Copyright by Fatima Crockery - {new Date().getFullYear()}
+                  copyright© by Fatima Crockery - {new Date().getFullYear()}
                 </a>
                 <br />
                 <small>

@@ -9,16 +9,20 @@ export function HeroSection() {
             ফাতিমা ক্রোকারিজ থেকে সাজিয়ে নিন আপনার রান্নাঘর😊.
           </h1>
 
-          <div className="mt-8 flex max-w-max items-center space-x-2 rounded-full border-cyan-50 border p-2">
-            <p className="text-xs font-medium md:text-sm">
-              আপনি আরো আইটেম দেখতে চান তারপর দেখুন{" "}
-              <strong className="ml-2 text-xxl cursor-pointer font-bold">
-                <a href={facebookURL} target="_blank">
-                  ফাতিমা ক্রোকারিজ
-                </a>
-              </strong>
-              <span className="l=ml2"> facebook page &rarr;</span>
-            </p>
+          <div className="mt-8 flex max-w-max items-center space-x-2 rounded-full p-2">
+            <span className="inline-flex h-full animate-background-shine items-center justify-center rounded-full border border-gray-800 bg-[linear-gradient(110deg,#082f49,45%,#0ea5e9,55%,#082f49)] bg-[length:250%_100%] px-5 py-3 text-2xl font-medium text-gray-200">
+              <p className="text-lg font-medium md:text-sm">
+                আপনি আরো আইটেম দেখতে চান তারপর দেখুন{" "}
+                <strong className="ml-2 text-xxl cursor-pointer font-bold">
+                  <a href={facebookURL} target="_blank">
+                    <span className="inline-flex animate-background-shine bg-[linear-gradient(110deg,#ffffff,45%,#0ea5e9,55%,#ffffff)] bg-[length:250%_100%] bg-clip-text text-xl text-transparent">
+                      ফাতিমা ক্রোকারিজ
+                    </span>
+                  </a>
+                </strong>
+                <span className="l=ml2"> facebook page &rarr;</span>
+              </p>
+            </span>
           </div>
           <p className="mt-8 max-w-3xl text-lg ">
             ফাতিমা ক্রোকারিজের প্রিমিয়াম সংগ্রহের সাথে আপনার রান্নাঘরকে সংগঠন
