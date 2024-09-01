@@ -5,7 +5,7 @@ export function HeroSection() {
     <div className="relative w-full">
       <div className="mx-auto max-w-7xl lg:px-8">
         <div className="flex flex-col justify-center px-6 py-0 lg:px-6">
-          <h1 className="mt-8 max-w-4xl text-3xl font-bold tracking-tight md:text-58xl lg:text-5xl">
+          <h1 className="mt-8  text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">
             ফাতিমা ক্রোকারিজ থেকে সাজিয়ে নিন আপনার রান্নাঘর😊.
           </h1>
 
@@ -35,9 +35,9 @@ export function HeroSection() {
 
           <div className="mt-8"></div>
         </div>
-        <div className="rounded-lg bg-gray-200 p-2">
+        <div className="rounded-lg bg-slate-700 p-[3px]">
           <img
-            className="aspect-[3/2] w-full rounded-lg bg-gray-50 object-cover lg:aspect-auto lg:h-[600px]"
+            className="w-full rounded-lg bg-gray-50 object-cover lg:h-[600px]"
             src="../../hero-image.jpg"
             alt="ফাতিমা ক্রোকারিজের প্রিমিয়াম সংগ্রহের সাথে আপনার রান্নাঘরকে সংগঠন
             এবং দক্ষতার আশ্রয়স্থলে রূপান্তর করুন।"

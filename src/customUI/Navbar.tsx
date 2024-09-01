@@ -2,10 +2,10 @@ const facebookURL = `https://www.facebook.com/officialfatimastore`;
 
 export function Navbar() {
   return (
-    <header className="container mx-auto">
-      <div className="navbar ">
-        <div className="navbar-start  ">
-          <div className="inline-flex items-center space-x-2">
+    <header className="container mx-auto lg:mt-3 ">
+      <div className=" flex justify-between items-center  border-[2px]  rounded-full p-2 border-gray-700 ">
+        <div className="  ">
+          <div className="flex justify-center  items-center space-x-2">
             <span>
               <img
                 src="../../logo.png"
@@ -18,17 +18,17 @@ export function Navbar() {
             </span>
           </div>
         </div>
-        <div className="navbar-end">
-          <div className=" ">
-            <a href={facebookURL} target="_blank">
-              <span className="relative inline-block overflow-hidden rounded-full p-[3px]">
-                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-                <div className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-gray-950 px-4 py-[5px] lg:text-xl font-medium text-gray-50 p-2 backdrop-blur-3xl">
-                  Facebook Page
-                </div>
-              </span>
-            </a>
-          </div>
+        <div className="">
+          {/* <div className="flex justify-center items-center "> */}
+          <a href={facebookURL} target="_blank">
+            <span className="relative inline-block overflow-hidden rounded-full p-[3px]">
+              <span className="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+              <div className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-gray-950 px-4 py-[6px] lg:text-xl font-medium text-gray-50 p-2 backdrop-blur-3xl">
+                Facebook Page
+              </div>
+            </span>
+          </a>
+          {/* </div> */}
         </div>
       </div>
     </header>

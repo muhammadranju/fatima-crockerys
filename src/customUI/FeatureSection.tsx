@@ -1,27 +1,13 @@
 export function FeatureSection() {
   return (
     <div className="mx-auto mt-20 max-w-7xl px-2 lg:px-8">
-      <h2 className="mt-2 mb-10 text-center text-3xl font-bold leading-tight  sm:text-4xl lg:text-4xl">
+      <h2 className="mt-2 mb-10 text-center text-3xl font-bold leading-tight  sm:text-2xl lg:text-3xl">
         ফাতিমা ক্রোকারিজে আপনার সুন্দর রান্নাঘর তৈরি করুন{" "}
       </h2>
 
       <div className="grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
         <div>
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-blue-100">
-            {/* <svg
-              className="h-9 w-9 text-blue-600"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"
-              />
-            </svg> */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
